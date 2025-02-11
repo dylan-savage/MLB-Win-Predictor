@@ -2,7 +2,7 @@
 
 This project aims to predict MLB team wins based on key statistics using machine learning models such as Linear Regression, Random Forest Regressor, and K-Means Clustering.
 
-Dataset
+**Dataset**
 
 Teams Dataset: Contains overall team statistics per season.
 
@@ -12,25 +12,25 @@ Pitching Dataset: Aggregated individual pitching statistics.
 
 Fielding Dataset: Aggregated fielding statistics.
 
-Approach
+**Approach**
 
-Data Preprocessing
+  Data Preprocessing
+  
+    Load and clean team and player statistics datasets.
+    
+    Aggregate relevant statistics by team and year.
+    
+    Identify key features that influence team wins.
 
-Load and clean team and player statistics datasets.
+  Modeling
+    
+    Linear Regression: Initial model to assess feature importance.
+    
+    Random Forest Regressor: More robust model to capture non-linear relationships.
+    
+    K-Means Clustering: Unsupervised learning to explore team groupings based on performance.
 
-Aggregate relevant statistics by team and year.
-
-Identify key features that influence team wins.
-
-Modeling
-
-Linear Regression: Initial model to assess feature importance.
-
-Random Forest Regressor: More robust model to capture non-linear relationships.
-
-K-Means Clustering: Unsupervised learning to explore team groupings based on performance.
-
-Results
+**Results**
 
 Evaluated model accuracy using R² Score and RMSE.
 
